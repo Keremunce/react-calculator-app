@@ -9,6 +9,7 @@ body {
     background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
 	animation: gradient 15s ease infinite;
     background-size: 150% 150%;
+    padding: 1rem;
 
 }
 @keyframes gradient {
@@ -30,6 +31,13 @@ body {
     grid-template-columns: repeat(4, 6rem);
     grid-template-rows: minmax(7rem, auto) repeat(5, 6rem); 
     gap: 5px;
+    background-color:  rgba(255, 255, 255, .35);
+    background: linear-gradient(45deg, rgba(255,255,255,.15), rgba(255,255,255,.35));
+    border: 1px solid rgba(255, 255, 255, .25);
+    margin: auto;
+    width: max-content;
+    padding: 1rem;
+    border-radius: .5rem;
 }
 
 .calculator-grid>button {
